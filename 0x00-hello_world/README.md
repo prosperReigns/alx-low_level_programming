@@ -15,3 +15,7 @@ main.s is created by halting the compilatin process of our source code at the as
 # 3-name
 
 our sources code is complied to create an executable file with the name cisfun
+
+#4-puts.c
+
+A script with prints out a statement using c puts() 
