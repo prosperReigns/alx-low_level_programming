@@ -23,3 +23,7 @@ A script with prints out a statement using c puts()
 # 5. Hello, printf
 
 Is a program sends a formatted string to the standard output(the display) using the c prinf function
+
+6. Size is not grandeur, and territory does not make a nation
+
+A program which defines available memory for various data types in c
