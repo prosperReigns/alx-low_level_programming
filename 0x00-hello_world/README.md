@@ -16,6 +16,10 @@ main.s is created by halting the compilatin process of our source code at the as
 
 our sources code is complied to create an executable file with the name cisfun
 
-#4-puts.c
+# 4. Hello, puts
 
-A script with prints out a statement using c puts() 
+A script with prints out a statement using c puts()
+
+# 5. Hello, printf
+
+Is a program sends a formatted string to the standard output(the display) using the c prinf function
