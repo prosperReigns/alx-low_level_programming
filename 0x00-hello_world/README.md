@@ -11,3 +11,7 @@ main.c compilation is halted at the complier stage producing a main.o file
 # 2-assembler
 
 main.s is created by halting the compilatin process of our source code at the assembly stage
+
+# 3-name
+
+our sources code is complied to create an executable file with the name cisfun
