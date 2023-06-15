@@ -27,3 +27,7 @@ Is a program sends a formatted string to the standard output(the display) using 
 6. Size is not grandeur, and territory does not make a nation
 
 A program which defines available memory for various data types in c
+
+#  Intel
+
+A script that generates assembly code form our dource code with and extension of .s
