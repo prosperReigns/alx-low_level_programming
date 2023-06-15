@@ -1,2 +1,2 @@
 #!/bin/bash
-./main
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 $CFILE && ./a.out
