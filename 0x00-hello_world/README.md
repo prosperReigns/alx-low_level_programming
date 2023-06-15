@@ -31,3 +31,9 @@ A program which defines available memory for various data types in c
 #  Intel
 
 A script that generates assembly code form our dource code with and extension of .s
+
+# 101-quote.c
+
+A program that displays a message on the terminal.
+this program uses stderr standard output
+the function of this program return 1 after execution
