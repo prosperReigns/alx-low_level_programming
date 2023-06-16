@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
-*main - Entry point
+*main - Print alphabets
 *
 *Description: This function prints out alphabet letter a-z in lowercase
 *it also prints alphabet lettered A-Z
