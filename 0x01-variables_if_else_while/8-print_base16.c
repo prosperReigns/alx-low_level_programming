@@ -16,7 +16,7 @@ while (num < 10)
 putchar(num + '0');
 num++;
 }
-ch = a;
+ch = 'a';
 while (ch < 'g')
 {
 putchar(ch);
