@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
 *main - Print alphabets
 *
 *Description: This function prints out alphabet letter a-z in lowercase
