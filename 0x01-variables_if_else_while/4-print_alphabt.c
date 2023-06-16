@@ -17,8 +17,8 @@ letter = letter + 1;
 continue;
 }
 putchar(letter);
-putchar('\n');
 letter++;
 }
+putchar('\n')
 return (0);
 }
