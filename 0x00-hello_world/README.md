@@ -28,9 +28,10 @@ Is a program sends a formatted string to the standard output(the display) using 
 
 A program which defines available memory for various data types in c
 
-#  Intel
+# 100-intel
 
-A script that generates assembly code form our dource code with and extension of .s
+A script that that outputs asm instruction using a selected dialect.
+A tool for compiling an x86 assembly text file into an executable.
 
 # 101-quote.c
 
