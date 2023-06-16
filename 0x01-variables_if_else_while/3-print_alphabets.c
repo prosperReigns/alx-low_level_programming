@@ -1,4 +1,4 @@
-#include <dstdio.h>
+#include <stdio.h>
 /*
 *main - Entry point
 *Description: prints alphabet a-z in lowercase and uppercase
