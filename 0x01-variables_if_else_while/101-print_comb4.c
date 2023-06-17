@@ -19,18 +19,15 @@ int main(void)
 		first = num / 100;
 		second = (num / 10) % 10;
 		third = num % 10;
-		if ((first < second) < third)
+		if ((first <= second) && (second <= third))
 		{
-			if ((first != second) != third)
+			putchar(first + '0');
+			putchar(second + '0');
+			putchar(third + '0');
+			if (first != 7 || second != 8 || third != 9)
 			{
-				putchar(first + '0');
-				putchar(second + '0');
-				putchar(third + '0');
-				if (first != 7 || second != 8 || third != 9)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 		num++;
