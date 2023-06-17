@@ -19,7 +19,7 @@ int main(void)
 		first = num / 100;
 		second = (num / 10) % 10;
 		third = num % 10;
-		if (first <= second && second <= third)
+		if ((first <= second) && (second <= third))
 		{
 			putchar(first + '0');
 			putchar(second + '0');
