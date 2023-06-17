@@ -22,8 +22,11 @@ int main(void)
 		{
 			putchar(first + '0');
 			putchar(second + '0');
+			if (first != 98 && second != 99)
+			{
 			putchar(',');
 			putchar(' ');
+			}
 		}
 		num++;
 	}
