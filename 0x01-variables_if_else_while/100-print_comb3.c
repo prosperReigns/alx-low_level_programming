@@ -16,12 +16,12 @@ int main(void)
 
 	while (num < 99)
 	{
-		first = num / 10;
-		second = num % 10;
+		first = (num / 10) + '0';
+		second = (num % 10) + '0';
 		if (first < second)
 		{
-			putchar(first + '0');
-			putchar(second + '0');
+			putchar(first);
+			putchar(second);
 		}
 		putchar(',');
 		putchar(' ');
