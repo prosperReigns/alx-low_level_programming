@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	int number = 0;
+	int num = 0;
 	int first, second, third;
 
 	while (num < 999)
@@ -19,7 +19,7 @@ int main(void)
 		first = num / 100;
 		second = (num / 10) % 10;
 		third = num % 10;
-		if (first < second < third)
+		if ((first < second) < third)
 		{
 			putchar(first + '0');
 			putchar(second + '0');
