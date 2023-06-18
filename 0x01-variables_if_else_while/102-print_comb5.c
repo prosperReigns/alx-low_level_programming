@@ -10,6 +10,7 @@
 int main(void)
 {
 	int first, second;
+
 	for (first = 0; first < 99; first++)
 	{
 		for (second = 0; second < 99; second++)
@@ -19,7 +20,7 @@ int main(void)
 			putchar(' ');
 			putchar(second / 10 + '0');
 			putchar(second % 10 + '0');
-			if (first != 98 || second != 99)
+			if (first != 98 && second != 99)
 			{
 				putchar(',');
 				putchar(' ');
