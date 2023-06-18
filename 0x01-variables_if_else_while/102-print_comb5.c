@@ -15,15 +15,18 @@ int main(void)
 	{
 		for (second = 1; second < 99; second++)
 		{
-			putchar(first / 10 + '0');
-			putchar(first % 10 + '0');
-			putchar(' ');
-			putchar(second / 10 + '0');
-			putchar(second % 10 + '0');
-			if (first != 98 || second != 99)
+			if (first < second)
 			{
-				putchar(',');
+				putchar(first / 10 + '0');
+				putchar(first % 10 + '0');
 				putchar(' ');
+				putchar(second / 10 + '0');
+				putchar(second % 10 + '0');
+				if (first != 98 || second != 99)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
