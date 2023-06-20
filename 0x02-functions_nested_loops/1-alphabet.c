@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	print_alphabet(void);
+	print_alphabet();
 	return (0);
 }
 
@@ -18,7 +18,7 @@ int main(void)
  *Return: Always void
  */
 
-void print_alphabet(void)
+void print_alphabet()
 {
 	char alpha;
 
@@ -29,5 +29,5 @@ void print_alphabet(void)
 		alpha++;
 	}
 	putchar('\n');
-	return (void);
+	return;
 }
