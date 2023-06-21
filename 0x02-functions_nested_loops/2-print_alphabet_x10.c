@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- *print_alohabet_x10 - prints alphabets
+ *print_alphabet_x10 - prints alphabets
  *Return: Always void
  */
 
 void print_alphabet_x10(void)
 {
-	int i = 'a';
+	int i = 0;
 
-	while (i <= 'z')
+	while (i < 10)
 	{
-		int j = 0;
+		int j = 'a';
 
-		while (j < 10)
+		while (j <= 'z')
 		{
-			_putchar(i);
+			_putchar(j);
 			j++;
 		}
 		_putchar('\n');
