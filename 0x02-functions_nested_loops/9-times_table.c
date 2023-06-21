@@ -13,7 +13,8 @@ void times_table(void)
 
 	while (count < 10)
 	{
-		num = 0;
+		_putchar(0 + '0');
+		num = 1;
 		while (num < 10)
 		{
 			result = count * num;
@@ -21,6 +22,7 @@ void times_table(void)
 			second = result % 10;
 			if (first == 0)
 			{
+				_putchar(' ');
 				_putchar(second + '0');
 			}
 			else
