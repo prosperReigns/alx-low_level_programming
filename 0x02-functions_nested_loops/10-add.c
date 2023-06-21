@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *int add(int a, int b) - adds two numbers
+ *add(int a, int b) - adds two numbers
  *@a: An integer as an arguement
  *@b: An integer as an arguement
  *
