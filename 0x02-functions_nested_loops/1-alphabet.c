@@ -2,10 +2,10 @@
 /**
  *print_alphabet - print alphabets
  *Description: alphabet a-z in lowercase
- *Return: Always void
+ *Return: Always 0
  */
 
-void print_alphabet()
+void print_alphabet(void)
 {
 	char alpha;
 
@@ -16,5 +16,4 @@ void print_alphabet()
 		alpha++;
 	}
 	_putchar('\n');
-	return;
 }
