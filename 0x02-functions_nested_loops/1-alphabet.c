@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
  *main - Entry point
  *
@@ -25,9 +25,9 @@ void print_alphabet()
 	alpha = 'a';
 	while (alpha <= 'z')
 	{
-		putchar(alpha);
+		_putchar(alpha);
 		alpha++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return;
 }
