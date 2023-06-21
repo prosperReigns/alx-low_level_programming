@@ -21,7 +21,6 @@ void times_table(void)
 			second = result % 10;
 			if (first == 0)
 			{
-				_putchar(' ');
 				_putchar(second + '0');
 			}
 			else
