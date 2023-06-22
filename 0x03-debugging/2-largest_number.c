@@ -5,6 +5,8 @@
  * @a: first integer
  * @b: second integer
  * @c: third integer
+ *
+ * Description: if left operand is greater output left operand
  * Return: largest number
  */
 
