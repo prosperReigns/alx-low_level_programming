@@ -4,10 +4,13 @@
  *mul - multiply two numbers
  *@a: first operand
  *@b: second operand
- *Returns: Always a * b
+ *Returns: Always multiply
  */
 
 int mul(int a, int b)
 {
-	return (a * b);
+	int multiply;
+
+	multiply = a * b;
+	return (multiply);
 }
