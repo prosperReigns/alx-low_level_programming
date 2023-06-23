@@ -1,0 +1,26 @@
+#include "main.h"
+
+/**
+ *more_numbers - prints number 10 times
+ *Description: print 1 to 14 on ten lines
+ *return: no return value
+ */
+
+void more_numbers(void)
+{
+	int i, j;
+
+	i = 0;
+	while (i < 10)
+	{
+		i++;
+		j = 0;
+		while (j < 15)
+		{
+			_putchar(i + '0');
+			j++;
+		}
+		_putchar('\n');
+	}
+	_putchar('\n');
+}
