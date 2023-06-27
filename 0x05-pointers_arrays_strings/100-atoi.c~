@@ -1,0 +1,13 @@
+#include "main.h"
+#include <stdlib.h>
+
+/**
+ *_atoi - outputs integer values
+ *@s: an array of characters as an arguement
+ *Return: Always an integer
+ */
+
+int _atoi(char *s)
+{
+	return (atoi(s));
+}
