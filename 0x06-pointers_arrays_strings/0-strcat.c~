@@ -1,0 +1,15 @@
+#include "main.h"
+#include <string.h>
+
+/**
+ *_strcat -concatenate two string while overwriting null byte
+ *@dest: A pointer to an array
+ *@src: A poiter to an array
+ *Return: Always pointer dest
+ */
+
+char *_strcat(char *dest, char *src)
+{
+	*dest = strcat(*dest, *src);
+	return (dest);
+}
