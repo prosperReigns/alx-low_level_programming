@@ -48,3 +48,11 @@ char *ptr;
 ptr = strncpy(string1, "this is a string", n);
 
 where n is count value; any valid integer.
+
+## 3-strcmp.c
+
+a program tha compares two string using strcmp defined in string.h header file.
+
+strcmp compares two string and return a value. value returned is 0 if the two strings  are equal, >0 if the first non-matching character ascii value is graeter than its corresponding character in the second string, and <0 id first non-matching character is less than corresponding ascii value of corresponding character of second string.
+
+strcmp compares each character of two strings using its ascii value
