@@ -62,3 +62,9 @@ strcmp compares each character of two strings using its ascii value
 a program that reverses the elements of an array.
 
 this program uses the method of swapping two numbers. where the first element is reolaced by the last and the last by the first
+
+## 5-string_toupper.
+
+A program that converts all lowercase letters to uppercase letters.
+
+this program takes a string as input, checks if its lowercased if true it is converted to uppercase
