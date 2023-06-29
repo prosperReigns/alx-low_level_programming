@@ -73,3 +73,12 @@ this program takes a string as input, checks if its lowercased if true it is con
 
 a program that capitalize the first letter of every word in a sentence
 
+## 7-leet.
+
+a program which encodes characters
+
+'a' and 'A' are encoded with the chatacter '4'
+'e' and 'E' are encoded with the character '3'
+'o' and 'O' are encoded with the character '0'
+'l' and 'L' are encoded with the character '1'
+'t' and 'T' are encoded with the character '7'
