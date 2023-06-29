@@ -68,3 +68,8 @@ this program uses the method of swapping two numbers. where the first element is
 A program that converts all lowercase letters to uppercase letters.
 
 this program takes a string as input, checks if its lowercased if true it is converted to uppercase
+
+## 6-cap_string.
+
+a program that capitalize the first letter of every word in a sentence
+
