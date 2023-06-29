@@ -56,3 +56,9 @@ a program tha compares two string using strcmp defined in string.h header file.
 strcmp compares two string and return a value. value returned is 0 if the two strings  are equal, >0 if the first non-matching character ascii value is graeter than its corresponding character in the second string, and <0 id first non-matching character is less than corresponding ascii value of corresponding character of second string.
 
 strcmp compares each character of two strings using its ascii value
+
+## 4-rev_array.
+
+a program that reverses the elements of an array.
+
+this program uses the method of swapping two numbers. where the first element is reolaced by the last and the last by the first
