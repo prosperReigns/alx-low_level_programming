@@ -31,6 +31,20 @@ char *ptr;
 
 ptr = strncat(string1, " one", n);
 
-where n is count value; any valid integer. n cuts the string when lenght of string is equal to count value. it doesnt take terminating nyll byte into account
+where n is count value; any valid integer. n cuts the string when lenght of string is equal to count value. it doesnt take terminating null byte into account
 
 note: if count value is greater than enght of string, lenght of string will be use in place of count value
+
+## 2-strncpy.c
+
+a program that copies a  string using c strncpy prede\
+fined function defined in string.h header file.
+
+strncpy is a function that uses a count value to copy a part of a string into an empty array
+
+char string1[98];
+char *ptr;
+
+ptr = strncpy(string1, "this is a string", n);
+
+where n is count value; any valid integer.
