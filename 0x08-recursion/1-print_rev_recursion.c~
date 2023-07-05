@@ -1,0 +1,19 @@
+#include "main.h"
+#include <string.h>
+
+/**
+ *_print_rev_recursion - Reverse a string
+ *@s: An array of characters
+ *Return: nothing
+ */
+
+void _print_rev_recursion(char *s)
+{
+	int i, len;
+
+	len = strlen(s);
+	for (i = len; i > 0; i--)
+	{
+		_putchar(*(s + i));
+	}
+}
