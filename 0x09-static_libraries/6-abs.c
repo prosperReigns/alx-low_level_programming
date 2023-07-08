@@ -2,14 +2,17 @@
 #include <stdlib.h>
 
 /**
- *_abs - returns an absolute value of a value
- *@n: an integer
- *Return: Always num
+ *_abs - prints absolute number
+ *@num: Any interger
+ *
+ *Description: returns the positive value of an integer
+ *Return: Always x
  */
 
-int _abs(int n)
+int _abs(int num)
 {
-	int num;
-	num = abs(n);
-	return(num);
+	int x;
+
+	x = abs(num);
+	return (x);
 }

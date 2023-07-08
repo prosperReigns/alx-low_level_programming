@@ -2,13 +2,16 @@
 #include <string.h>
 
 /**
- *_strcmp - compares two strings
- *@s1: first array of characters to be compared
- *@s2:second array of caracters to be compared
- *Return: an integer 1, 0, or -1
+ * _strcmp - compares two string for equality
+ *@s1: An array of characters
+ *@s2: an array of characters
+ *Return: 0 if equal, >0 or <0 based on greater ascii value
  */
 
 int _strcmp(char *s1, char *s2)
 {
-	return (strcmp(s1, s2));
+	int result;
+
+	result = strcmp(s1, s2);
+	return (result);
 }

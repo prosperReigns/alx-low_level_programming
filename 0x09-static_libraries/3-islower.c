@@ -2,12 +2,20 @@
 #include <ctype.h>
 
 /**
- *_islower - check if a character is lowercased
- *@c: an integer
- *Return: an imteger 0 of 1
+ *_islower - check for lowercase
+ *@c: Any number
+ *
+ *Description: checks if a number is beween 97 and 122
+ *Return: Always res
  */
 
 int _islower(int c)
 {
-	return (islower(c));
+	int res;
+
+	if (c >= 97 && c <= 122)
+		res = 1;
+	else
+		res = 0;
+	return (res);
 }

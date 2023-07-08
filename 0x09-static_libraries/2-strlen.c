@@ -2,15 +2,15 @@
 #include <string.h>
 
 /**
- *_strlen - determines the lenght of a string
- *@s: an array of characters
- *Return: Always lenght
+ *_strlen - The lenght of a string
+ *@s: points to the address of a data value
+ *Return: Always len
  */
 
 int _strlen(char *s)
 {
-	int lenght;
+	int len;
 
-	lenght = strlen(s);
-	return (lenght);
+	len = strlen(s);
+	return (len);
 }

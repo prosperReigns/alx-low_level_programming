@@ -2,14 +2,14 @@
 #include <string.h>
 
 /**
- *_strncat - concatenates n number of characters to another string
- *@dest: destination of concatenated string
- *@src: string to be concatenated
- *Return: Always dest
+ *_strcat -concatenate two string while overwriting null byte
+ *@dest: A pointer to an array
+ *@src: A poiter to an array
+ *Return: Always pointer dest
  */
 
 char *_strcat(char *dest, char *src)
 {
-	strcat(dest, src);
+	dest = strcat(dest, src);
 	return (dest);
 }

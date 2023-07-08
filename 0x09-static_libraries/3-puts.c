@@ -2,11 +2,12 @@
 #include <stdio.h>
 
 /**
- *_puts - prints output
- *@s: pointer to an array of characters
+ *_puts - outputs to stdout
+ *@str:points to the address of a data value in memeory
+ *Return: Always 1 (successful)
  */
 
-void _puts(char *s)
+void _puts(char *str)
 {
-	puts(s);
+	puts(str);
 }

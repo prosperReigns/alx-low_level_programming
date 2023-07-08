@@ -1,13 +1,20 @@
 #include "main.h"
-#include <ctype.h>
 
 /**
- *_isalpha - chechs if a character is an alphabet
- *@c: an integer
- *return: An integer 0 or 1
+ *_isalpha - checkm for uppercase
+ *@c: Any character/number
+ *
+ *Description: result is 1 if number is between 65 and 90
+ *Return: Always res
  */
 
 int _isalpha(int c)
 {
-	return (isalpha(c));
+	int res;
+
+	if (c >= 65 && c <= 122)
+		res = 1;
+	else
+		res = 0;
+	return (res);
 }

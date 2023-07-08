@@ -1,17 +1,17 @@
 #include "main.h"
-#include "string.h"
+#include <string.h>
 
 /**
- *_strpbrk - search for matching characters
+ *_strpbrk - returns matching string
  *@s: string to be scanned
- *@accept: characters to match
- *Return: Always ch
+ *@accept: matching string
+ *Return: pointer to value
  */
 
 char *_strpbrk(char *s, char *accept)
 {
-	char *ch;
+	char *res;
 
-	ch = strpbrk(s, accept);
-	return (ch);
+	res = strpbrk(s, accept);
+	return (res);
 }

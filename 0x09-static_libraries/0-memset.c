@@ -2,9 +2,9 @@
 #include <string.h>
 
 /**
- *_memset - copies character of n byte to memory
- *@s: a pointer to a block of memory to fill
- *@b:value to be set
+ *_memset - fill memomry area with constant
+ *@s: starting point in memory
+ *@b: value to be filled
  *@n: number of byte to set
  *Return: Always s
  */

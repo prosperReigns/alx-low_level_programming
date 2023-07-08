@@ -2,10 +2,10 @@
 #include <string.h>
 
 /**
- *_strspn - check for matching characters in string
+ *_strspn - return the lenght of mathched substring str1 in str2
  *@s: string to be scanned
- *@accept: characters to match in string1
- *Return:  Always an integer
+ *@accept: string to be matched
+ *Return: Always len
  */
 
 unsigned int _strspn(char *s, char *accept)

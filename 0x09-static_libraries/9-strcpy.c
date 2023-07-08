@@ -2,10 +2,10 @@
 #include <string.h>
 
 /**
- *_strcpy - copies a string
- *@dest: string to be copied to
- *@scr: string to be copied
- *Return: Alwayd dest
+ *_strcpy - update value in memory
+ *@dest: A variable that points to data value
+ *@src: An array of characters
+ *Return: Always dest
  */
 
 char *_strcpy(char *dest, char *src)

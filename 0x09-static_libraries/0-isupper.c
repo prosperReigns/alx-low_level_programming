@@ -2,15 +2,15 @@
 #include <ctype.h>
 
 /**
- *_isupper - check if a character is uppercased
- *@c: a character as an arguement
- *Return: always res
+ *_isupper - check for uppercase
+ *@c: an integer
+ *Return: 1 if true, 0 if false
  */
 
 int _isupper(int c)
 {
-	int res;
-
-	res = isupper(c);
-	return (res);
+	if (isupper(c))
+		return (1);
+	else
+		return (0);
 }

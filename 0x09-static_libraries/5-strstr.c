@@ -2,16 +2,16 @@
 #include <string.h>
 
 /**
- *_strstr - searchs for a string in another
- *@haystack: an array of characters to be scanned
- *@needle: An array of characters to match
- *Return: a pointer to a string
+ *_strstr - finds matching characters in a string
+ *@haystack: string to be scanned
+ *@needle: string to be matched
+ *Return: a pointer to machhing substring
  */
 
 char *_strstr(char *haystack, char *needle)
 {
-	char *str;
+	char *res;
 
-	str = strstr(haystack, needle);
-	return (str);
+	res = strstr(haystack, needle);
+	return (res);
 }

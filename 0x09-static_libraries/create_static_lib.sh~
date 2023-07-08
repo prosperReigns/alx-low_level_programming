@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -c *.c | grep -l ".o" >> ar -tr liball.a

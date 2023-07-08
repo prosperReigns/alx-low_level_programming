@@ -2,16 +2,16 @@
 #include <string.h>
 
 /**
- *_strchr - returns the first occurance of a character in a string
- *@s: string to bee scanned
- *@c: character to be searched for
- *Return: Always ch
+ *_strchr - searchrs for a character in a string
+ *@s: string to be searched
+ *@c: character to search for
+ *Return: the value of res
  */
 
 char *_strchr(char *s, char c)
 {
-	char *ch;
+	char *res;
 
-	ch = strchr(s, c);
-	return (ch);
+	res = strchr(s, c);
+	return (res);
 }

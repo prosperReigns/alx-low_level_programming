@@ -2,15 +2,15 @@
 #include <string.h>
 
 /**
- *_strncat - add n number of characters to a string
- *@dest: string to be concatenated to
- *@src: string to be concatenated
- *@n: number of characters to concatenate
- *Return: Always dest
+ *_strncat - concatenates two string using a count value
+ *@dest: An array of characters
+ *@src: A string
+ *@n: number of count
+ *Return: Always pointer dest
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
-	strncat(dest, src, n);
+	dest = strncat(dest, src, n);
 	return (dest);
 }

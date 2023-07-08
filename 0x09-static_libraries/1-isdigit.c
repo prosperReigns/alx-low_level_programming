@@ -1,13 +1,16 @@
 #include "main.h"
-#include <ctype.h>
+#include<ctype.h>
 
 /**
- *_isdigit - checks if parameter is digit or not
- *@c: an interger
- *Return: Always 0
+ * _isdigit - check for digit 0-9
+ * @c: an integer
+ * Return: 1 if true, 0 if false
  */
 
 int _isdigit(int c)
 {
-	return (isdigit(c));
+	if (isdigit(c))
+		return (1);
+	else
+		return (0);
 }
