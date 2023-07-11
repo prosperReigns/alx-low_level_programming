@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int recur(int x)
+{
+	if (x == 1)
+		return 1;
+	return (recur(x - 1));
+}
+
+int main()
+{
+	int x = 10;
+	int y;
+	
+	y = recur(10);
+	printf("%d\n", y);
+}
