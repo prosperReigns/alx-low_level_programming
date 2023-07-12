@@ -11,9 +11,9 @@
 
 int main(int argc, char **argv)
 {
-        int i, operand1, operand2, result = 0;
+	int i, operand1, operand2, result = 0;
 
-        if (argc > 1)
+	if (argc > 1)
 	{
 		for (i = 1; i < argc; i++)
 		{
@@ -30,5 +30,5 @@ int main(int argc, char **argv)
 	}
 	printf("%d", result);
 	printf("\n");
-        return (0);
+	return (0);
 }
