@@ -1,4 +1,4 @@
-#include <stdlib.h>
-#ifndef ABS
-#define ABS(x) ((x) > 0 ? (x) : (x * -1))
+#ifndef X
+#define X
+#define ABS(x) (((x) > 0) ? (x) : ((x) * -1))
 #endif
