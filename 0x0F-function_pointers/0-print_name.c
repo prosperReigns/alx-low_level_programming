@@ -9,6 +9,7 @@
 
 void print_name(char *name, void (*f)(char *str))
 {
-	if (name)
+	if (name && f)
 		f(name);
+	return;
 }
