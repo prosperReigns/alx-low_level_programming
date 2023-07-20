@@ -9,12 +9,8 @@
 
 void print_all(const char * const format, ...)
 {
-	formatter f[] = {
-		{'c', print_char},
-		{'i', print_int},
-		{'f', print_float},
-		{'s', print_string},
-		{'\0', NULL}};
+	formatter f[] = {{'c', print_char}, {'i', print_int}, {'f', print_float},
+			 {'s', print_string}, {'\0', NULL}};
 
 	int i = 0, j;
 	char *separator = "";
