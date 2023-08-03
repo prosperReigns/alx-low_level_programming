@@ -2,8 +2,9 @@
 #include <string.h>
 
 /**
- *binary_to_unit - converts binary to decimal
+ *binary_to_uint - converts binary to decimal
  *@b: number in binary to be converted
+ *Return: the converted number
 */
 
 unsigned int binary_to_uint(const char *b)
