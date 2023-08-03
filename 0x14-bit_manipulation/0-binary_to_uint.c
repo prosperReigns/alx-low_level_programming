@@ -2,9 +2,8 @@
 #include <string.h>
 
 /**
- *
- *
- *
+ *binary_to_unit - converts binary to decimal
+ *@b: number in binary to be converted
 */
 
 unsigned int binary_to_uint(const char *b)
@@ -31,5 +30,5 @@ unsigned int binary_to_uint(const char *b)
 			indx--;
 		}
 	}
-	return total;
+	return (total);
 }
