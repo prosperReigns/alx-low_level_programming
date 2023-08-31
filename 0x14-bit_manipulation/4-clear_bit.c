@@ -16,6 +16,6 @@ if (index >= bitval)
 return (-1);
 mask = 1 << index;
 mask = ~mask;
-*n =*n & mask;
+*n = *n & mask;
 return (1);
 }
