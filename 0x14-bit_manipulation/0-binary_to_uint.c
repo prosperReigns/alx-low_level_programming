@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- *binary_to_unit - converts binary to decimal number system
+ *binary_to_uint - converts binary to decimal number system
  *@b: binary string
  *Return: decimal coefficient of binary
  */
